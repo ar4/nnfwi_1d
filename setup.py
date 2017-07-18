@@ -12,7 +12,7 @@ numpy.distutils.core.setup(
         author_email='alan@ausargeo.com',
         license='MIT',
         packages=['nnfwi_1d'],
-        install_requires=['numpy','pandas'],
+        install_requires=['numpy', 'tensorflow'],
         classifiers=[
             'Development Status :: 3 - Alpha',
             'Intended Audience :: Science/Research',
