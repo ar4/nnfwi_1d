@@ -1,11 +1,11 @@
-"""Propagate a 1D wavefield using an 8th order finite difference method.
+"""Propagate a 1D wavefield using an 16th order finite difference method.
 """
 import numpy as np
 import nnfwi_1d
 from nnfwi_1d import prop
 
 class Propagator(object):
-    """An 8th order finite difference propagator for the 1D wave equation."""
+    """A 16th order finite difference propagator for the 1D wave equation."""
     def __init__(self, model, dx, dt=None, npad=450):
         self.nx = len(model)
         self.dx = np.float32(dx)
